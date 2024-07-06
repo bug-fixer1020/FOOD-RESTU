@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+}
+  
+
+/* weidth 247%
+heighht 605 */
+.hero{
+  height: 615.5px;
+  background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url('../assets/assets/hero-bg.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.hero .hero-con{
+  width: 388.8px;
+  /* height: 241.9px; */
+  /* margin: 0 auto; */
+}
+.hero .hero-con .hero-con-p{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 228px;
+line-height: 31px;
+letter-spacing: 0%;
+text-align: center;
+opacity: .8;
+}
+.hero .hero-con .title{
+  color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 266px;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.hero .hero-con .des{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 5px;
+font-weight: 300 px;
+line-height: 8px;
+letter-spacing: 0%;
+text-align: center;
+}
+.btn-con{
+  text-align: center;
+}
+.hero .hero-con .btn{
+  /* Frame 6 */
+position: static;
+width: 279px;
+height: 66px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 32px 21px 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+border-radius: 8px;
+
+background: rgb(82, 195, 3);
+}
